@@ -1,8 +1,9 @@
-f708241d1b6788d035f2b4aeb2c9ad64 *DESCRIPTION
+740777ab25f0a3b2970694c2378860d0 *DESCRIPTION
 80f1fda8f587ae726dfb9f9edae1873b *NAMESPACE
-1907fdc0251a44413944bbfaee5cf458 *R/constructJUnitTag.R
+228527ad5b83b14b946b0b27a81712bc *NEWS.md
+d481b1b39c7d49ae128fad42dde0d34a *R/constructJUnitTag.R
 f56f5b70787f111e47843ea7acee7c2a *R/writeJUnit.R
-4e01e4ebe387bac74912b45f38ae3140 *R/xml.R
+c8dfc93b5ba06eb523682dcfafd85dfe *R/xml.R
 92d5c9adb76117224959c9ab58945e6d *inst/example_tests/empty_test_folder/notest.R
 92d5c9adb76117224959c9ab58945e6d *inst/example_tests/empty_tests/test_empty.R
 4f85976ada49696839187c43102cb945 *inst/example_tests/heavy_calculations/test_heavy_calculation.R
@@ -19,6 +20,7 @@ de33f1c8a193d9e5f807dc527402516d *inst/example_tests/skips/test_partial_skipped.
 a84f4e4717312f89223ff2964c97545c *man/constructTestcaseTag.Rd
 622024d9f67a2a8248573136ec1368a2 *man/constructTestsuiteTag.Rd
 64960e2b5fc4ea1d756769fff5288e76 *man/constructTestsuitesTag.Rd
+f5b0202d65d4ef515bf155314c0cad05 *man/escapeXmlText.Rd
 ac884f795bc678830c437e5dc462198d *man/format.XMLtag.Rd
 bf486fa4b31097a6afe1f20d6a6926c9 *man/print.XMLtag.Rd
 7fe11d97d23697ec822699ba2c37a976 *man/tag.Rd
