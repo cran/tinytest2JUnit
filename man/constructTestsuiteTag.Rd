@@ -4,14 +4,27 @@
 \alias{constructTestsuiteTag}
 \title{Construct JUnit \verb{</testsuite>} tag}
 \usage{
-constructTestsuiteTag(testResultsSingleFile)
+constructTestsuiteTag(testsFile, id)
 }
 \arguments{
-\item{testResultsSingleFile}{\code{tinytesta}-object with all test results of a specified test file.}
+\item{testsFile}{\code{tinytests2JUnit | tinytests} -object with all test
+results of a specified test file. At least a single test is expected.}
+
+\item{id}{\code{integer(1)} testsuite id.}
 }
 \value{
-\code{XMLtag}: with tag-name = \verb{</testsuite>} that contains all the test results per test file.
+\code{XMLtag}: with tag-name = \verb{</testsuite>}
+that contains all the test results per test file.
 }
 \description{
-Construct the \verb{</testsuite>} tag of a \code{tinytest}, given all the \code{tinytest} results from a single test file.
+Construct the \verb{</testsuite>} tag of a \code{tinytest}, given all the \code{tinytest} results
+from a single test file.
+}
+\details{
+In case a \code{tinytest2JUnit} is provided following additional info can be reported:
+\itemize{
+\item testsuite duration.
+\item timestamp when the testsuite was performed.
+\item hostname where the testsuite was ran.
+}
 }

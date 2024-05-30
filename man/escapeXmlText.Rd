@@ -7,11 +7,11 @@
 escapeXmlText(x)
 }
 \arguments{
-\item{x}{a \code{character} vector meant to be xml-text.}
+\item{x}{a \code{character} vector meant to be xml-text content.}
 }
 \value{
 The same \code{character} vector x but xml text escaped.
 }
 \description{
-Escape the characters '<' and \code{&} in a character vector meant to be xml-text.
+Escape the characters '<' and \code{&} in a character vector meant to be xml-text content.
 }
